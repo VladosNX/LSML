@@ -41,7 +41,7 @@ Installation for Arch Linux:
 
 Installation for Debian:
 
-`sudo apt install git meson ninja-build curl libncurses-dev libarchive-dev`
+`sudo apt install git meson ninja-build libcurl4-openssl-dev libncurses-dev libarchive-dev`
 
 ### Building
 
