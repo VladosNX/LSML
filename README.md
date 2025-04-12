@@ -20,9 +20,20 @@ Dependencies for building:
 - Git *(to download sources)*
 - Meson *(to prepare and configure build)*
 - Ninja *(to build and instsall)*
+- proot *(instead of chroot)*
 - libcurl *(to download rootfs)*
 - libarchive *(to unpack packages downloaded from RootFS repository)*
 - ncurses *(to make a beautiful user interface)*
+
+### Installing proot
+
+```
+curl -LO https://proot.gitlab.io/proot/bin/proot
+chmod +x ./proot
+sudo cp ./proot /usr/local/bin/proot
+```
+
+### Installing dependencies
 
 Installation for Arch Linux:
 
